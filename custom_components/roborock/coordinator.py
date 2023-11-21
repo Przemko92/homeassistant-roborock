@@ -15,7 +15,7 @@ from roborock.exceptions import RoborockException
 from .const import DOMAIN
 from .roborock_typing import RoborockHassDeviceInfo
 
-SCAN_INTERVAL = timedelta(seconds=30)
+SCAN_INTERVAL = timedelta(seconds=5)
 
 _LOGGER = logging.getLogger(__name__)
 
