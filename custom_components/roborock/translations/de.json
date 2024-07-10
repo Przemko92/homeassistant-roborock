@@ -90,7 +90,7 @@
     },
     "sensor": {
       "current_error": {
-        "name": "Current error",
+        "name": "Aktueller Fehler",
         "state": {
           "none": "Keine",
           "lidar_blocked": "LiDAR-Turm oder -laser ist blockiert. Bitte Blockierung entfernen und wiederholen.",
@@ -198,6 +198,9 @@
       },
       "clean_percent": {
         "name": "Reinigungsprozess"
+      },
+      "battery": {
+        "name": "Batterie"
       }
     },
     "binary_sensor": {
